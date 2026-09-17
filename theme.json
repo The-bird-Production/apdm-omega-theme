@@ -1,0 +1,31 @@
+{
+  "id": "apdm",
+  "name": "Au Pied du Morclan",
+  "description": "Thème pour le meublé de tourisme Au Pied du Morclan (Châtel).",
+  "version": "1.0.0",
+  "author": "Faynix & Faustine Guillaume",
+  "config": {
+    "fonts": {
+      "body": "HelveticaNeueCyr-Medium, sans-serif",
+      "heading": "Lilita One, cursive"
+    },
+    "layout": {
+      "header": "default",
+      "footer": "default",
+      "buttonStyle": "rounded"
+    },
+    "components": {
+      "Header": "/components/Header.js",
+      "Footer": "/components/Footer.js",
+      "Button": "/components/Button.js"
+    },
+    "pageTemplates": [
+      { "name": "about-us", "label": "Qui sommes-nous" },
+      { "name": "lodge", "label": "Le logement" },
+      { "name": "book", "label": "Réserver" },
+      { "name": "faq", "label": "FAQ" },
+      { "name": "contact", "label": "Contact" },
+      { "name": "webcam", "label": "Webcam" }
+    ]
+  }
+}
