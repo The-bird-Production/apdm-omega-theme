@@ -10910,6 +10910,27 @@ body {
   box-shadow: none;
 }
 
+/* Overlaid transparently on top of a Hero banner (about-us, lodge,
+   book, faq, contact, webcam, home) — see Header.js's HERO_ROUTES. */
+.navbar-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  background-color: transparent;
+}
+
+/* Everything else (article pages, pages without a theme template) has
+   no banner behind it, so the nav needs its own solid background. */
+.navbar-solid {
+  position: relative;
+  background-color: #1F282F;
+}
+.navbar-solid .nav-link {
+  color: #fff !important;
+}
+
 .nav-link:hover {
   color: #DAA21B !important;
 }
@@ -10952,7 +10973,7 @@ body {
   .embed-responsive-item {
     height: 100%;
   }
-  .nav-link {
+  .navbar-overlay .nav-link {
     color: white !important;
   }
 }/*# sourceMappingURL=style.css.map */

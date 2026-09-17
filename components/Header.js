@@ -9,9 +9,18 @@ import { getMenu } from '../../../../lib/menu';
 // Qui sommes nous /about-us, Le logement /lodge, Réserver /book, FAQ
 // /faq, Contact /contact, Webcam /webcam — plus a Blog link to /article
 // if you want one).
+//
+// The routes below all render a full-height Hero banner (see
+// components/pages/*.jsx), so the nav overlays it transparently, like
+// on the original site. Everything else (article pages, and any page
+// created without picking one of this theme's templates) has no
+// banner to sit on, so the nav gets a solid background there instead.
+const HERO_ROUTES = ['/', '/about-us', '/lodge', '/book', '/faq', '/contact', '/webcam'];
+
 export default function Header() {
   const pathname = usePathname();
   const [items, setItems] = useState([]);
+  const isOverlay = HERO_ROUTES.includes(pathname);
 
   useEffect(() => {
     require('../../../../public/js/bootstrap.bundle.min.js');
@@ -48,7 +57,7 @@ export default function Header() {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg">
+      <nav className={`navbar navbar-expand-lg ${isOverlay ? 'navbar-overlay' : 'navbar-solid'}`}>
         <div className="container-fluid flex-nowrap">
           <button
             className="navbar-toggler navbar-dark border-0 p-0"
