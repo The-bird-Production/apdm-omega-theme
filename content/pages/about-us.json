@@ -1,0 +1,28 @@
+{
+  "title": "Qui sommes nous",
+  "body": [
+    {
+      "type": "cover",
+      "props": { "imageUrl": "/themes/apdm/img/IMG_20220223_155310.jpg", "overlayOpacity": 40, "minHeight": 320 },
+      "children": [
+        { "type": "heading", "props": { "level": 1 }, "content": "Qui sommes nous" }
+      ]
+    },
+    {
+      "type": "heading",
+      "props": { "level": 2 },
+      "content": "A propos de nous"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nous, c'est Julien et Jennifer. Nous sommes tombés amoureux de Châtel lorsque nous avions 18 ans. Depuis, nous y avons passé de nombreux séjours, en toute saison. En couple, avec les enfants, en famille, avec des amis, pendant les vacances scolaires ou en dehors : c'est toujours sympa ! En septembre 2021, notre rêve s'est concrétisé. Nous avons trouvé notre cocon en plein coeur de la station."
+    },
+    {
+      "type": "buttons",
+      "props": { "align": "left" },
+      "children": [
+        { "type": "button", "props": { "url": "/contact", "variant": "primary", "openInNewTab": false }, "content": "Contactez nous" }
+      ]
+    }
+  ]
+}

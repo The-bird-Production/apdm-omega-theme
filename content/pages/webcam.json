@@ -1,0 +1,16 @@
+{
+  "title": "Webcam",
+  "body": [
+    {
+      "type": "cover",
+      "props": { "imageUrl": "/themes/apdm/img/banner.jpg", "overlayOpacity": 40, "minHeight": 320 },
+      "children": [
+        { "type": "heading", "props": { "level": 1 }, "content": "Webcam" }
+      ]
+    },
+    {
+      "type": "embed",
+      "props": { "url": "https://app.webcam-hd.com/chatel/morclan", "height": 500 }
+    }
+  ]
+}

@@ -10,35 +10,40 @@ récupère la dernière release GitHub du dépôt.
 
 ### Après installation
 
-Le contenu (textes, photos) de chaque page est éditable depuis l'admin
-comme n'importe quelle page Omega — voir
+Les 6 pages du site (`about-us`, `lodge`, `book`, `faq`, `contact`,
+`webcam`) sont importées automatiquement à l'installation, avec un
+contenu de démarrage qui reproduit la structure du vrai site — texte,
+boutons, galerie, accordéon FAQ/équipement, widget de réservation,
+webcam — entièrement composé de blocs standards de l'éditeur Omega (voir
 [docs/plugin-and-theme-development.md](https://github.com/The-bird-Production/Project-Omega-CMS/blob/main/docs/plugin-and-theme-development.md)
-du CMS pour le fonctionnement général des thèmes. Deux choses ne sont
-**pas** créées automatiquement par l'installation et doivent être faites
-une fois, à la main :
+pour le détail de ces blocs). Chaque page reste ensuite éditable
+normalement depuis `/admin/page/edit/<slug>`, comme n'importe quelle
+page Omega — il n'y a plus de "Modèle de page" à choisir, ni de mise en
+page câblée en dur dans le thème : tout est du contenu.
 
-1. **Le menu principal** (`/admin/menu`, menu `main`) — les liens de
-   navigation ne sont pas fournis par le thème. Créez-les avec ces URLs :
-   - Accueil → `/`
-   - Qui sommes nous → `/about-us`
-   - Le logement → `/lodge`
-   - Réserver → `/book`
-   - FAQ → `/faq`
-   - Contact → `/contact`
-   - Webcam → `/webcam`
+**Une seule chose reste à faire à la main** : le menu principal
+(`/admin/menu`, menu `main`) — les liens de navigation ne sont pas créés
+automatiquement. Créez-les avec ces URLs :
 
-2. **Les 6 pages** (`/admin/page/new`), une par modèle déclaré dans
-   `theme.json` (`about-us`, `lodge`, `book`, `faq`, `contact`,
-   `webcam`), avec le slug correspondant et le "Modèle de page"
-   assorti. Le contenu de chaque page (texte, photos) se remplit
-   ensuite depuis l'éditeur par blocs :
-   - **about-us / book / contact / webcam** : texte libre, plus une
-     image pour about-us.
-   - **faq** : un bloc "Titre" par question, suivi du/des bloc(s) de
-     réponse — chaque titre devient un item d'accordéon.
-   - **lodge** : même principe pour la section "Équipement" (un titre
-     par pièce/catégorie), et n'importe quel bloc "Image" ajouté dans
-     la page alimente le carrousel de photos, dans l'ordre.
+- Accueil → `/`
+- Qui sommes nous → `/about-us`
+- Le logement → `/lodge`
+- Réserver → `/book`
+- FAQ → `/faq`
+- Contact → `/contact`
+- Webcam → `/webcam`
+
+Réinstaller ou mettre à jour le thème ne touche jamais une page déjà
+existante — seules les pages manquantes (jamais créées, ou supprimées
+depuis) sont réimportées.
+
+### Contenu de démarrage à personnaliser
+
+Les photos de la galerie du logement, les textes des accordéons
+d'équipement ("Cuisine", "Salon"...) et la photo "Qui sommes nous"
+utilisent des images génériques fournies avec le thème — remplacez-les
+par vos propres photos et textes directement dans l'éditeur, comme le
+reste du contenu.
 
 ## Composants non éditables
 

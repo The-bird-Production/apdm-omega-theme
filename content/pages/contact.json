@@ -1,0 +1,31 @@
+{
+  "title": "Nous contacter",
+  "body": [
+    {
+      "type": "cover",
+      "props": { "imageUrl": "/themes/apdm/img/banner.jpg", "overlayOpacity": 40, "minHeight": 320 },
+      "children": [
+        { "type": "heading", "props": { "level": 1 }, "content": "Nous contacter" }
+      ]
+    },
+    {
+      "type": "columns",
+      "children": [
+        {
+          "type": "column",
+          "children": [
+            { "type": "paragraph", "content": "Email : contact@aupieddumorclan.fr" },
+            { "type": "paragraph", "content": "Téléphone : +33 7 67 67 73 33" },
+            { "type": "paragraph", "content": "Adresse : 41 Chemin de sous le Crêt, 74390 Châtel" }
+          ]
+        },
+        {
+          "type": "column",
+          "children": [
+            { "type": "contactForm" }
+          ]
+        }
+      ]
+    }
+  ]
+}

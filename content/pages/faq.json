@@ -1,0 +1,92 @@
+{
+  "title": "FAQ",
+  "body": [
+    {
+      "type": "cover",
+      "props": { "imageUrl": "/themes/apdm/img/banner.jpg", "overlayOpacity": 40, "minHeight": 320 },
+      "children": [
+        { "type": "heading", "props": { "level": 1 }, "content": "FAQ" }
+      ]
+    },
+    {
+      "type": "accordion",
+      "children": [
+        {
+          "type": "accordionItem",
+          "props": { "question": "Comment réserver le logement ?", "open": false },
+          "children": [{ "type": "paragraph", "content": "C'est très simple, il vous suffit de sélectionner sur la page Réservations : votre date d'arrivée puis votre date de départ, suivez ensuite les étapes de la procédure et procédez au paiement de l'acompte par CB." }]
+        },
+        {
+          "type": "accordionItem",
+          "props": { "question": "Ma réservation est-elle définitive ?", "open": false },
+          "children": [{ "type": "paragraph", "content": "La réservation devient définitive dès la validation des CGV et après paiement de votre acompte en ligne via KE-BOOKING." }]
+        },
+        {
+          "type": "accordionItem",
+          "props": { "question": "Quand payer le solde de ma réservation ?", "open": false },
+          "children": [{ "type": "paragraph", "content": "Le solde de votre séjour doit nous parvenir 30 jours avant votre arrivée. Afin de préserver le plafond de paiement de votre carte bancaire nous vous recommandons de régler ce solde par virement bancaire. Vous pouvez toutefois le régler par CB via KE-BOOKING, vous recevrez un rappel 40 jours avant votre arrivée." }]
+        },
+        {
+          "type": "accordionItem",
+          "props": { "question": "Les propriétaires acceptent-ils les chèques-vacances ?", "open": false },
+          "children": [{ "type": "paragraph", "content": "Nous sommes adhérents à l'ANCV et pouvons les accepter pour le règlement du solde de votre séjour." }]
+        },
+        {
+          "type": "accordionItem",
+          "props": { "question": "Suis-je redevable de la taxe de séjour ?", "open": false },
+          "children": [{ "type": "paragraph", "content": "Oui. Le montant de la taxe de séjour sera ajouté au montant de votre réservation. Seules les personnes majeures sont concernées par la taxe de séjour." }]
+        },
+        {
+          "type": "accordionItem",
+          "props": { "question": "Quelles sont les conditions générales de location ?", "open": false },
+          "children": [{ "type": "paragraph", "content": "Vous trouverez les conditions générales de location dans le bas de page du site." }]
+        },
+        {
+          "type": "accordionItem",
+          "props": { "question": "Puis-je souscrire une assurance annulation ?", "open": false },
+          "children": [{ "type": "paragraph", "content": "Oui, c'est possible en suivant le lien ci-dessous. https://www.souscription.safebooking.com/homeassur-0/" }]
+        },
+        {
+          "type": "accordionItem",
+          "props": { "question": "Quel est le règlement intérieur à respecter ?", "open": false },
+          "children": [{ "type": "paragraph", "content": "Nous avons établi un règlement intérieur avec des règles simples afin que votre séjour se déroule au mieux. Vous le trouverez dans notre livret d'accueil à votre arrivée dans l'appartement. Il convient d'en prendre connaissance." }]
+        },
+        {
+          "type": "accordionItem",
+          "props": { "question": "Qu'est-ce qui est fourni ?", "open": false },
+          "children": [{ "type": "paragraph", "content": "Nous laissons à votre disposition quelques condiments de base (huile, sel, poivre, etc.) dont le renouvellement est au bon vouloir de chacun. Chaque lit dispose de sa couette et de son oreiller. Les draps, serviettes de toilettes et torchons ne sont pas fournis (location possible). Le wifi est inclus." }]
+        },
+        {
+          "type": "accordionItem",
+          "props": { "question": "Qui m'accueillera sur place ?", "open": false },
+          "children": [{ "type": "paragraph", "content": "Notre intervenante vous accueillera et vous fera découvrir le logement à votre arrivée. Son numéro de téléphone vous sera communiqué afin que vous preniez contact avec elle quelques jours avant votre arrivée. Elle répondra bien volontiers à toutes vos interrogations sur place, et sera de très bons conseils pour découvrir Châtel et ses environs." }]
+        },
+        {
+          "type": "accordionItem",
+          "props": { "question": "Quels sont les horaires d'arrivée et de départ ?", "open": false },
+          "children": [{ "type": "paragraph", "content": "Le jour de votre arrivée, vous pouvez bénéficier de l'appartement dès qu'il est disponible (à convenir avec notre intervenante). Le jour de votre départ, il conviendra de libérer les lieux à 10h au plus tard. Vous ferez l'état des lieux de sortie et remettrez les clés." }]
+        },
+        {
+          "type": "accordionItem",
+          "props": { "question": "Puis-je séjourner avec mon animal domestique ?", "open": false },
+          "children": [{ "type": "paragraph", "content": "Les animaux domestiques ne sont pas acceptés dans l'appartement." }]
+        },
+        {
+          "type": "accordionItem",
+          "props": { "question": "Le ménage est-il inclus ?", "open": false },
+          "children": [{ "type": "paragraph", "content": "Non. Le ménage est à votre charge à la fin de votre séjour. Nous laissons, d'ailleurs, à votre disposition quelques produits d'entretien. Toutefois, vous pouvez trouver une solution avec notre intervenante." }]
+        },
+        {
+          "type": "accordionItem",
+          "props": { "question": "Où puis-je me garer ?", "open": false },
+          "children": [{ "type": "paragraph", "content": "La résidence dispose d'un parking privé, les places ne sont pas nominatives et non garanties. Nous vous conseillons d'arriver suffisamment tôt afin de pouvoir vous y garer. Vous pouvez toutefois réserver une place sur le parking communal sous-terrain à 300m." }]
+        },
+        {
+          "type": "accordionItem",
+          "props": { "question": "Qui sommes-nous ?", "open": false },
+          "children": [{ "type": "paragraph", "content": "Nous sommes Julien et Jennifer pour vous permettre de disposer d'un logement confortable et cosy sur Châtel. Nous sommes épaulées par une intervenante sur place. Bienvenue Au Pied Du Morclan." }]
+        }
+      ]
+    }
+  ]
+}

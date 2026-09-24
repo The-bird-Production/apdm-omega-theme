@@ -1,0 +1,38 @@
+{
+  "title": "Reserver",
+  "body": [
+    {
+      "type": "cover",
+      "props": { "imageUrl": "/themes/apdm/img/banner.jpg", "overlayOpacity": 40, "minHeight": 320 },
+      "children": [
+        { "type": "heading", "props": { "level": 1 }, "content": "Reserver" },
+        { "type": "paragraph", "content": "Réservez votre séjour et profitez des meilleurs tarifs sur notre plateforme sécurisée © Amenitiz" }
+      ]
+    },
+    {
+      "type": "heading",
+      "props": { "level": 2 },
+      "content": "Les étapes de votre réservation :"
+    },
+    {
+      "type": "bulletListItem",
+      "content": "Réservation confirmée à réception des 25% d'acompte"
+    },
+    {
+      "type": "bulletListItem",
+      "content": "J-30 règlement automatique du solde via CB"
+    },
+    {
+      "type": "bulletListItem",
+      "content": "Pré-autorisation automatique de 500€ via CB (caution)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sur demande, autres modes de règlement (Virement, Chèques Vacances, 3 fois sans frais)"
+    },
+    {
+      "type": "embed",
+      "props": { "url": "https://au-pied-du-morclan-chatel.amenitiz.io/fr/booking/room", "height": 700 }
+    }
+  ]
+}

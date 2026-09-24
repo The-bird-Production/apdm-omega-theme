@@ -1,0 +1,70 @@
+{
+  "title": "Le logement",
+  "body": [
+    {
+      "type": "cover",
+      "props": { "imageUrl": "/themes/apdm/img/aupieddumorclan-petitdej.jpg", "overlayOpacity": 40, "minHeight": 320 },
+      "children": [
+        { "type": "heading", "props": { "level": 1 }, "content": "Le logement" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Nous vous accueillons avec plaisir dans notre appartement : Au pied du Morclan. Vous apprécierez notre appartement pour sa situation idéale en plein cœur du centre village, à deux pas de la télécabine de super Chatel. Le retour des pistes peut se faire ski au pied ! Il est situé au 2ème étage côté parking et côté montagne au même niveau que les casiers à ski (plain pied). L'orientation de la terrasse Sud/Ouest vous offre une vue magnifique et ensoleillée sur le village et la vallée d'Abondance. La résidence dispose d'un parking privé gratuit, mais les places ne sont pas attribuées."
+    },
+    {
+      "type": "buttons",
+      "props": { "align": "left" },
+      "children": [
+        { "type": "button", "props": { "url": "https://youtu.be/5-kNZr2hkbI", "variant": "outline", "openInNewTab": true }, "content": "Visite virtuelle" },
+        { "type": "button", "props": { "url": "/book", "variant": "primary", "openInNewTab": false }, "content": "Réserver" }
+      ]
+    },
+    {
+      "type": "heading",
+      "props": { "level": 2 },
+      "content": "Équipement"
+    },
+    {
+      "type": "gallery",
+      "children": [
+        { "type": "galleryImage", "props": { "url": "/themes/apdm/img/aupieddumorclan-petitdej.jpg", "alt": "Au pied du Morclan" } }
+      ]
+    },
+    {
+      "type": "accordion",
+      "children": [
+        {
+          "type": "accordionItem",
+          "props": { "question": "Cuisine", "open": false },
+          "children": [{ "type": "paragraph", "content": "Décrivez ici l'équipement de la cuisine (plaques, four, réfrigérateur, lave-vaisselle...)." }]
+        },
+        {
+          "type": "accordionItem",
+          "props": { "question": "Salon", "open": false },
+          "children": [{ "type": "paragraph", "content": "Décrivez ici le salon (canapé, télévision, wifi...)." }]
+        },
+        {
+          "type": "accordionItem",
+          "props": { "question": "Salle de bain", "open": false },
+          "children": [{ "type": "paragraph", "content": "Décrivez ici la salle de bain (douche, sèche-serviette...)." }]
+        },
+        {
+          "type": "accordionItem",
+          "props": { "question": "Terrasse", "open": false },
+          "children": [{ "type": "paragraph", "content": "Décrivez ici la terrasse (exposition, mobilier extérieur...)." }]
+        },
+        {
+          "type": "accordionItem",
+          "props": { "question": "Chambre parentale", "open": false },
+          "children": [{ "type": "paragraph", "content": "Décrivez ici la chambre parentale (literie, rangements...)." }]
+        },
+        {
+          "type": "accordionItem",
+          "props": { "question": "Deuxième chambre", "open": false },
+          "children": [{ "type": "paragraph", "content": "Décrivez ici la deuxième chambre (literie, rangements...)." }]
+        }
+      ]
+    }
+  ]
+}
