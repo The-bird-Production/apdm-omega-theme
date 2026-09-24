@@ -1,5 +1,9 @@
-import Link from 'next/link';
-
+// Plain <a> tags on purpose, not next/link: the host renders this
+// component in complete isolation from its own React tree (a genuine
+// runtime import + renderToStaticMarkup, see loadCompiledComponent.js in
+// the CMS repo), so next/link's internal hooks have no router context to
+// attach to here.
+//
 // Contact details/social links are site-wide chrome, not per-page content
 // — edit them here directly (same as before) rather than through the
 // admin. If you'd rather make them admin-editable later, the "Contact"
@@ -26,10 +30,10 @@ export default function Footer() {
                 <h3>Liens utiles</h3>
                 <ul className="list-unstyled">
                   <li>
-                    <Link href="/book">Réservation</Link>
+                    <a href="/book">Réservation</a>
                   </li>
                   <li>
-                    <Link href="/lodge">Le logement</Link>
+                    <a href="/lodge">Le logement</a>
                   </li>
                   <li>
                     <a href="https://www.portesdusoleil.com/en-hiver/plan-des-pistes" target="_blank" rel="noopener noreferrer">
