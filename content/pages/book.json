@@ -3,7 +3,7 @@
   "body": [
     {
       "type": "cover",
-      "props": { "imageUrl": "/themes/apdm/img/banner.jpg", "overlayOpacity": 40, "minHeight": 320 },
+      "props": { "imageUrl": "/themes/apdm/img/banner.jpg", "overlayOpacity": 40, "minHeight": "90vh" },
       "children": [
         { "type": "heading", "props": { "level": 1 }, "content": "Reserver" },
         { "type": "paragraph", "content": "Réservez votre séjour et profitez des meilleurs tarifs sur notre plateforme sécurisée © Amenitiz" }

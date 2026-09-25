@@ -1,0 +1,63 @@
+{
+  "title": "Au pied du Morclan",
+  "body": [
+    {
+      "type": "cover",
+      "props": { "imageUrl": "/themes/apdm/img/header.jpg", "overlayOpacity": 40, "minHeight": "90vh" },
+      "children": [
+        { "type": "paragraph", "content": "CHÂTEL" },
+        { "type": "heading", "props": { "level": 1 }, "content": "Altitude 1200-2200m" },
+        { "type": "heading", "props": { "level": 2 }, "content": "Location appartement de vacances à Châtel dans la résidence Les Rhododendrons" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Nous vous accueillons avec plaisir dans notre appartement : Au pied du Morclan. Dans la résidence les Rhododendrons, vous apprécierez notre appartement pour sa situation idéale en plein cœur du centre village, à deux pas de la télécabine de super Chatel. Le retour des pistes peut se faire ski au pied ! Il est situé au 2ème étage côté parking et côté montagne au même niveau que les casiers à ski (plain pied). L'orientation de la terrasse Sud/Ouest vous offre une vue magnifique et ensoleillée sur le village et la vallée d'Abondance. La résidence dispose d'un parking privé gratuit, mais les places ne sont pas attribuées."
+    },
+    {
+      "type": "buttons",
+      "props": { "align": "left" },
+      "children": [
+        { "type": "button", "props": { "url": "/about-us", "variant": "primary", "openInNewTab": false }, "content": "En savoir plus" }
+      ]
+    },
+    {
+      "type": "spacer",
+      "props": { "height": 32 }
+    },
+    {
+      "type": "heading",
+      "props": { "level": 2 },
+      "content": "Châtel"
+    },
+    {
+      "type": "paragraph",
+      "content": "Situé en Haute-Savoie, Châtel est avant tout un village montagnard au charme authentique, à l'architecture préservée, un patrimoine historique. Son centre-ville est animé, ses paysages offrent une multitude de sites naturels tous plus beaux les uns que les autres. Châtel c'est aussi une station de ski avec l'un des plus grands domaines skiables au monde : Les Portes du Soleil. En hiver comme en été, à ski ou en randonnée, il fait bon passer des vacances à Châtel."
+    },
+    {
+      "type": "buttons",
+      "props": { "align": "left" },
+      "children": [
+        { "type": "button", "props": { "url": "https://chatel.com", "variant": "outline", "openInNewTab": true }, "content": "Office du tourisme" }
+      ]
+    },
+    {
+      "type": "spacer",
+      "props": { "height": 32 }
+    },
+    {
+      "type": "cover",
+      "props": { "imageUrl": "/themes/apdm/img/banner.jpg", "overlayOpacity": 50, "minHeight": "50vh" },
+      "children": [
+        { "type": "heading", "props": { "level": 2 }, "content": "C'est la destination idéale pour vos séjours et vos vacances à la montagne." },
+        {
+          "type": "buttons",
+          "props": { "align": "center" },
+          "children": [
+            { "type": "button", "props": { "url": "/book", "variant": "primary", "openInNewTab": false }, "content": "Réserver votre séjour" }
+          ]
+        }
+      ]
+    }
+  ]
+}
