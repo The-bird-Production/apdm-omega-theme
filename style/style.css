@@ -10922,13 +10922,14 @@ body {
 }
 
 /* Everything else (article pages, pages without a theme template) has
-   no banner behind it, so the nav needs its own solid background. */
+   no banner behind it, so the nav needs its own solid background. Its
+   links are only forced white from the lg breakpoint up (see the media
+   query at the end of this file), where they sit on that dark bar: below
+   it they live in the white offcanvas panel, where white links were
+   invisible (white on white) — they stay dark there, like on Hero pages. */
 .navbar-solid {
   position: relative;
   background-color: #1F282F;
-}
-.navbar-solid .nav-link {
-  color: #fff !important;
 }
 
 .nav-link:hover {
@@ -10973,7 +10974,8 @@ body {
   .embed-responsive-item {
     height: 100%;
   }
-  .navbar-overlay .nav-link {
+  .navbar-overlay .nav-link,
+  .navbar-solid .nav-link {
     color: white !important;
   }
 }/*# sourceMappingURL=style.css.map */

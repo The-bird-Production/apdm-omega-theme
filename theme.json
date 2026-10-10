@@ -2,7 +2,7 @@
   "id": "apdm",
   "name": "Au Pied du Morclan",
   "description": "Thème pour le meublé de tourisme Au Pied du Morclan (Châtel).",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "author": "Faynix & Faustine Guillaume",
   "config": {
     "fonts": {
