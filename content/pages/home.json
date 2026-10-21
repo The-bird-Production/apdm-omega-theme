@@ -2,62 +2,630 @@
   "title": "Au pied du Morclan",
   "body": [
     {
-      "type": "cover",
-      "props": { "imageUrl": "/themes/apdm/img/header.jpg", "overlayOpacity": 40, "minHeight": "90vh" },
+      "type": "apdmHero",
+      "props": {
+        "eyebrow": "▲ 1 200 m · Portes du Soleil · Résidence Les Rhododendrons",
+        "titleWinter": "Ski aux pieds, *au cœur* de Châtel",
+        "titleSummer": "L'été en terrasse, *au cœur* de Châtel",
+        "subWinter": "Appartement de 58 m² pour 6 personnes, grande terrasse plein sud-ouest et vue sur la vallée d'Abondance, à 20 m de la télécabine de Super-Châtel.",
+        "subSummer": "Appartement de 58 m² pour 6 personnes, terrasse de plus de 40 m², couchers de soleil sur la vallée d'Abondance et Multipass offert pour profiter de la montagne.",
+        "facts": "6 voyageurs\n2 chambres\nTerrasse sud-ouest\nh:Retour ski aux pieds\ne:Multipass offert\nParking privé gratuit\nMénage inclus",
+        "videoUrl": "/themes/apdm/video/fond.webm",
+        "posterUrl": "/themes/apdm/img/2026/poster.jpg",
+        "summerImageUrl": "/themes/apdm/img/2026/ete.jpg",
+        "bookingUrl": "https://au-pied-du-morclan-chatel.amenitiz.io/fr/booking/room",
+        "bookingNote": "Réservation en direct, sans frais de plateforme · paiement sécurisé Amenitiz · chèques-vacances ANCV acceptés",
+        "ratingValue": "4,96 / 5",
+        "ratingLabel": "53 avis Google & Airbnb"
+      }
+    },
+    {
+      "type": "apdmFacts",
+      "props": {
+        "items": "58 m²|3 pièces · 6 couchages · terrasse 40 m²\n20 m|de la télécabine de Super-Châtel\n2e|étage, ascenseur, casiers à skis de plain-pied\nh:600 km|de pistes Portes du Soleil\ne:Lacs|Vonnes, Léman : baignade et balades\nMultipass|offert en été · activités incluses"
+      }
+    },
+    {
+      "type": "columns",
       "children": [
-        { "type": "paragraph", "content": "CHÂTEL" },
-        { "type": "heading", "props": { "level": 1 }, "content": "Altitude 1200-2200m" },
-        { "type": "heading", "props": { "level": 2 }, "content": "Location appartement de vacances à Châtel dans la résidence Les Rhododendrons" }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": "Nous vous accueillons avec plaisir dans notre appartement : Au pied du Morclan. Dans la résidence les Rhododendrons, vous apprécierez notre appartement pour sa situation idéale en plein cœur du centre village, à deux pas de la télécabine de super Chatel. Le retour des pistes peut se faire ski au pied ! Il est situé au 2ème étage côté parking et côté montagne au même niveau que les casiers à ski (plain pied). L'orientation de la terrasse Sud/Ouest vous offre une vue magnifique et ensoleillée sur le village et la vallée d'Abondance. La résidence dispose d'un parking privé gratuit, mais les places ne sont pas attribuées."
-    },
-    {
-      "type": "buttons",
-      "props": { "align": "left" },
-      "children": [
-        { "type": "button", "props": { "url": "/about-us", "variant": "primary", "openInNewTab": false }, "content": "En savoir plus" }
-      ]
-    },
-    {
-      "type": "spacer",
-      "props": { "height": 32 }
-    },
-    {
-      "type": "heading",
-      "props": { "level": 2 },
-      "content": "Châtel"
-    },
-    {
-      "type": "paragraph",
-      "content": "Situé en Haute-Savoie, Châtel est avant tout un village montagnard au charme authentique, à l'architecture préservée, un patrimoine historique. Son centre-ville est animé, ses paysages offrent une multitude de sites naturels tous plus beaux les uns que les autres. Châtel c'est aussi une station de ski avec l'un des plus grands domaines skiables au monde : Les Portes du Soleil. En hiver comme en été, à ski ou en randonnée, il fait bon passer des vacances à Châtel."
-    },
-    {
-      "type": "buttons",
-      "props": { "align": "left" },
-      "children": [
-        { "type": "button", "props": { "url": "https://chatel.com", "variant": "outline", "openInNewTab": true }, "content": "Office du tourisme" }
-      ]
-    },
-    {
-      "type": "spacer",
-      "props": { "height": 32 }
-    },
-    {
-      "type": "cover",
-      "props": { "imageUrl": "/themes/apdm/img/banner.jpg", "overlayOpacity": 50, "minHeight": "50vh" },
-      "children": [
-        { "type": "heading", "props": { "level": 2 }, "content": "C'est la destination idéale pour vos séjours et vos vacances à la montagne." },
         {
-          "type": "buttons",
-          "props": { "align": "center" },
+          "type": "column",
           "children": [
-            { "type": "button", "props": { "url": "/book", "variant": "primary", "openInNewTab": false }, "content": "Réserver votre séjour" }
+            {
+              "type": "heading",
+              "props": {
+                "level": 2
+              },
+              "content": "Un cocon bois et lumière"
+            },
+            {
+              "type": "paragraph",
+              "content": "Grand séjour lambrissé, cuisine ouverte avec lave-vaisselle et table pour six, terrasse ensoleillée face à la vallée d'Abondance. On rentre des pistes skis aux pieds et on dépose tout au casier, au même niveau que l'appartement."
+            },
+            {
+              "type": "bulletListItem",
+              "content": "Chambre parentale : lit 160×200, grands rangements"
+            },
+            {
+              "type": "bulletListItem",
+              "content": "Chambre enfants / amis : 4 couchages 90×200 en lits superposés, lavabo"
+            },
+            {
+              "type": "bulletListItem",
+              "content": "Salle d'eau : douche à l'italienne, lave-linge séchant, sèche-serviettes ; WC séparé"
+            },
+            {
+              "type": "bulletListItem",
+              "content": "Balcon + terrasse de plus de 40 m² exposés sud-ouest"
+            },
+            {
+              "type": "bulletListItem",
+              "content": "Inclus : wifi, couettes et oreillers, ménage de fin de séjour, parking privé"
+            },
+            {
+              "type": "buttons",
+              "props": {
+                "align": "left"
+              },
+              "children": [
+                {
+                  "type": "button",
+                  "props": {
+                    "url": "https://youtu.be/5-kNZr2hkbI",
+                    "variant": "outline",
+                    "openInNewTab": true
+                  },
+                  "content": "Visite virtuelle"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "url": "/lodge",
+                    "variant": "text",
+                    "openInNewTab": false
+                  },
+                  "content": "Le logement en détail"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "column",
+          "children": [
+            {
+              "type": "gallery",
+              "children": [
+                {
+                  "type": "galleryImage",
+                  "props": {
+                    "url": "/themes/apdm/img/2026/salon.jpg",
+                    "alt": "Séjour lambrissé avec canapé et fauteuils"
+                  }
+                },
+                {
+                  "type": "galleryImage",
+                  "props": {
+                    "url": "/themes/apdm/img/2026/terrasse2.jpg",
+                    "alt": "Terrasse avec table dressée face aux montagnes"
+                  }
+                },
+                {
+                  "type": "galleryImage",
+                  "props": {
+                    "url": "/themes/apdm/img/2026/chambre.jpg",
+                    "alt": "Chambre parentale avec lit 160"
+                  }
+                },
+                {
+                  "type": "galleryImage",
+                  "props": {
+                    "url": "/themes/apdm/img/2026/dortoir.jpg",
+                    "alt": "Chambre avec lits superposés"
+                  }
+                },
+                {
+                  "type": "galleryImage",
+                  "props": {
+                    "url": "/themes/apdm/img/2026/cuisine.jpg",
+                    "alt": "Cuisine ouverte avec verrière"
+                  }
+                },
+                {
+                  "type": "galleryImage",
+                  "props": {
+                    "url": "/themes/apdm/img/2026/sdb.jpg",
+                    "alt": "Salle d'eau avec douche à l'italienne"
+                  }
+                },
+                {
+                  "type": "galleryImage",
+                  "props": {
+                    "url": "/themes/apdm/img/2026/salon2.jpg",
+                    "alt": "Salon avec baies vitrées sur la montagne"
+                  }
+                }
+              ]
+            }
           ]
         }
       ]
+    },
+    {
+      "type": "apdmBand",
+      "props": {
+        "tone": "sky",
+        "anchor": "emplacement"
+      },
+      "children": [
+        {
+          "type": "columns",
+          "children": [
+            {
+              "type": "column",
+              "children": [
+                {
+                  "type": "image",
+                  "props": {
+                    "url": "/themes/apdm/img/2026/acces.jpg",
+                    "caption": "Télécabine de Super-Châtel à gauche, accès au local à skis à droite.",
+                    "previewWidth": 1200
+                  }
+                }
+              ]
+            },
+            {
+              "type": "column",
+              "children": [
+                {
+                  "type": "heading",
+                  "props": {
+                    "level": 2
+                  },
+                  "content": "Tout se fait à pied"
+                },
+                {
+                  "type": "paragraph",
+                  "content": "En plein centre-village, résidence Les Rhododendrons, 41 chemin de sous le Crêt. La voiture reste au parking toute la semaine."
+                },
+                {
+                  "type": "bulletListItem",
+                  "content": "Télécabine de Super-Châtel à 20 m : on part à pied, on rentre skis aux pieds par la piste « La Combe »"
+                },
+                {
+                  "type": "bulletListItem",
+                  "content": "Commerces, restaurants et office de tourisme au bout de la rue"
+                },
+                {
+                  "type": "bulletListItem",
+                  "content": "Parking privé gratuit (places non attribuées) ou parking souterrain communal à 300 m"
+                },
+                {
+                  "type": "bulletListItem",
+                  "content": "Morgins (Suisse) à quelques minutes, le Léman à moins d'une heure"
+                },
+                {
+                  "type": "buttons",
+                  "props": {
+                    "align": "left"
+                  },
+                  "children": [
+                    {
+                      "type": "button",
+                      "props": {
+                        "url": "https://goo.gl/maps/HQskL1znhDuLMiRo6",
+                        "variant": "outline",
+                        "openInNewTab": true
+                      },
+                      "content": "Itinéraire Google Maps"
+                    },
+                    {
+                      "type": "button",
+                      "props": {
+                        "url": "/webcam",
+                        "variant": "text",
+                        "openInNewTab": false
+                      },
+                      "content": "Webcam du Morclan"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "props": {
+        "level": 2
+      },
+      "content": "Que faire depuis l'appartement ?"
+    },
+    {
+      "type": "apdmSeason",
+      "props": {
+        "only": "hiver"
+      },
+      "children": [
+        {
+          "type": "columns",
+          "children": [
+            {
+              "type": "column",
+              "children": [
+                {
+                  "type": "image",
+                  "props": {
+                    "url": "/themes/apdm/img/2026/hiver.jpg",
+                    "caption": "",
+                    "previewWidth": 1200
+                  }
+                }
+              ]
+            },
+            {
+              "type": "column",
+              "children": [
+                {
+                  "type": "heading",
+                  "props": {
+                    "level": 3
+                  },
+                  "content": "Les Portes du Soleil depuis la porte"
+                },
+                {
+                  "type": "paragraph",
+                  "content": "Super-Châtel, Linga, Pré-la-Joux et tout le domaine franco-suisse des Portes du Soleil. Les jours sans ski : thermes de Lavey, mines de sel de Bex."
+                },
+                {
+                  "type": "buttons",
+                  "props": {
+                    "align": "left"
+                  },
+                  "children": [
+                    {
+                      "type": "button",
+                      "props": {
+                        "url": "https://www.portesdusoleil.com/en-hiver/plan-des-pistes",
+                        "variant": "outline",
+                        "openInNewTab": true
+                      },
+                      "content": "Plan des pistes"
+                    },
+                    {
+                      "type": "button",
+                      "props": {
+                        "url": "/article",
+                        "variant": "text",
+                        "openInNewTab": false
+                      },
+                      "content": "Nos idées de sorties"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apdmSeason",
+      "props": {
+        "only": "ete"
+      },
+      "children": [
+        {
+          "type": "columns",
+          "children": [
+            {
+              "type": "column",
+              "children": [
+                {
+                  "type": "image",
+                  "props": {
+                    "url": "/themes/apdm/img/2026/coucher.jpg",
+                    "caption": "",
+                    "previewWidth": 1200
+                  }
+                }
+              ]
+            },
+            {
+              "type": "column",
+              "children": [
+                {
+                  "type": "heading",
+                  "props": {
+                    "level": 3
+                  },
+                  "content": "Multipass offert, montagne en accès libre"
+                },
+                {
+                  "type": "paragraph",
+                  "content": "L'été, le Multipass Portes du Soleil est offert : remontées piétons, piscine, activités. Randonnées, VTT, sentier des contrebandiers, Aquaparc du Bouveret, et le Léman à portée de voiture."
+                },
+                {
+                  "type": "buttons",
+                  "props": {
+                    "align": "left"
+                  },
+                  "children": [
+                    {
+                      "type": "button",
+                      "props": {
+                        "url": "https://chatel.com",
+                        "variant": "outline",
+                        "openInNewTab": true
+                      },
+                      "content": "Office de tourisme"
+                    },
+                    {
+                      "type": "button",
+                      "props": {
+                        "url": "/article",
+                        "variant": "text",
+                        "openInNewTab": false
+                      },
+                      "content": "Nos idées de sorties"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apdmBand",
+      "props": {
+        "tone": "sun",
+        "anchor": "reserver"
+      },
+      "children": [
+        {
+          "type": "heading",
+          "props": {
+            "level": 2
+          },
+          "content": "Réserver en direct, sans commission"
+        },
+        {
+          "type": "paragraph",
+          "content": "Vous réservez directement auprès de nous via Amenitiz : meilleur tarif, et un vrai contact avant votre arrivée."
+        },
+        {
+          "type": "apdmSteps",
+          "props": {
+            "steps": "Réservation|Acompte de 25 %|Votre réservation est confirmée dès réception.\nJ-30|Solde automatique|Prélevé par carte 30 jours avant l'arrivée.\nAvant l'arrivée|Caution 500 €|Simple pré-autorisation sur votre carte, rien n'est débité.\nJour J|Accueil sur place|Notre intervenante vous remet les clés et ses bons plans."
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": "Carte bancaire · virement · PayPal · chèques-vacances ANCV · 3× sans frais sur demande · assurance annulation Chapka"
+        },
+        {
+          "type": "buttons",
+          "props": {
+            "align": "left"
+          },
+          "children": [
+            {
+              "type": "button",
+              "props": {
+                "url": "https://au-pied-du-morclan-chatel.amenitiz.io/fr/booking/room",
+                "variant": "primary",
+                "openInNewTab": true
+              },
+              "content": "Voir le calendrier et les tarifs"
+            },
+            {
+              "type": "button",
+              "props": {
+                "url": "/book",
+                "variant": "outline",
+                "openInNewTab": false
+              },
+              "content": "Comment réserver"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apdmBand",
+      "props": {
+        "tone": "paper",
+        "anchor": "avis"
+      },
+      "children": [
+        {
+          "type": "heading",
+          "props": {
+            "level": 2
+          },
+          "content": "Ils en parlent mieux que nous"
+        },
+        {
+          "type": "apdmReviews",
+          "props": {
+            "scores": "Airbnb|4,93|29 commentaires, 93 % à 5 étoiles|https://www.airbnb.fr/rooms/53093651/reviews|Coup de cœur voyageurs|Précision 5,0, Propreté 4,9, Communication 4,9, Emplacement 4,9, Arrivée 4,8, Qualité-prix 4,8\nGoogle|5,0|24 avis, tous à 5 étoiles|https://www.google.com/maps/place/Au+pied+du+Morclan/@46.2673321,6.842407,17z/data=!4m8!3m7!1s0x478ea3993ccd0e51:0x21412992f3d03e3b!8m2!3d46.2673321!4d6.842407!9m1!1b1||",
+            "reviews": "*Airbnb|février 2026|Suzie|Vous pouvez y aller les yeux fermés ! Emplacement idéal, au cœur de Châtel. Avec deux enfants en bas âge, nous avons adoré tout faire à pied. L'appartement est encore plus grand que sur les photos. Un vrai cocon, chaleureux, avec une vue à couper le souffle.\nAirbnb|janvier 2026|Jason|À 20 mètres de la remontée mécanique. Le casier à skis est situé au même niveau que la remontée, donc pas d'escaliers : c'est vraiment ski in/out. Un séjour fantastique.\nGoogle||Véronique V.|Nous avons pu profiter de la terrasse avec sa magnifique vue, ensoleillée dès l'après-midi, et de très jolis couchers de soleil. L'accès au multipass grâce à l'hébergement est un réel plus.\nAirbnb|juillet 2026|Daniel|Très bel appartement propre avec tout ce qu'il faut. Idéalement situé. Nous recommandons vivement en été comme en hiver.\nGoogle||Pierre W.|L'appartement est très propre, lumineux et décoré avec beaucoup de goût. L'accueil par Claire est parfait. Ce petit nid douillet est vraiment top !\nAirbnb|juin 2025|Alexis|Nous avons profité du beau temps sur la grande terrasse et pu admirer cette vue sublime ! Julien a été un hôte très réactif et très agréable.\nGoogle||Cécile M.|Très bien équipé, avec sa grande terrasse offrant une belle vue sur le village et la vallée. Bien situé dans le centre et au calme. 5 étoiles bien méritées !"
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "props": {
+        "level": 2
+      },
+      "content": "Avant de venir"
+    },
+    {
+      "type": "accordion",
+      "children": [
+        {
+          "type": "accordionItem",
+          "props": {
+            "question": "Qu'est-ce qui est fourni ?",
+            "open": true
+          },
+          "children": [
+            {
+              "type": "paragraph",
+              "content": "Couettes et oreillers, wifi, condiments de base. Les draps, serviettes et torchons ne sont pas fournis : location possible sur place (16 € par personne). Ménage de fin de séjour inclus : merci de laisser la cuisine rangée et la vaisselle propre."
+            }
+          ]
+        },
+        {
+          "type": "accordionItem",
+          "props": {
+            "question": "Horaires d'arrivée et de départ",
+            "open": false
+          },
+          "children": [
+            {
+              "type": "paragraph",
+              "content": "Arrivée dès que l'appartement est prêt, à convenir avec notre intervenante. Départ à 10 h au plus tard, avec état des lieux et remise des clés."
+            }
+          ]
+        },
+        {
+          "type": "accordionItem",
+          "props": {
+            "question": "Où se garer ?",
+            "open": false
+          },
+          "children": [
+            {
+              "type": "paragraph",
+              "content": "Parking privé gratuit de la résidence (places non nominatives, non garanties : arrivez tôt) ou place réservable au parking souterrain communal à 300 m."
+            }
+          ]
+        },
+        {
+          "type": "accordionItem",
+          "props": {
+            "question": "Quand est prélevé le solde ?",
+            "open": false
+          },
+          "children": [
+            {
+              "type": "paragraph",
+              "content": "Automatiquement 30 jours avant l'arrivée sur la carte enregistrée (Amenitiz Pay / Stripe). Virement, PayPal et chèques-vacances ANCV possibles."
+            }
+          ]
+        },
+        {
+          "type": "accordionItem",
+          "props": {
+            "question": "Les animaux sont-ils acceptés ?",
+            "open": false
+          },
+          "children": [
+            {
+              "type": "paragraph",
+              "content": "Non, les animaux domestiques ne sont pas acceptés."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "buttons",
+      "props": {
+        "align": "left"
+      },
+      "children": [
+        {
+          "type": "button",
+          "props": {
+            "url": "/faq",
+            "variant": "text",
+            "openInNewTab": false
+          },
+          "content": "Toutes les questions"
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "children": [
+        {
+          "type": "column",
+          "children": [
+            {
+              "type": "image",
+              "props": {
+                "url": "/themes/apdm/img/2026/enseigne.jpg",
+                "caption": "",
+                "previewWidth": 1200
+              }
+            }
+          ]
+        },
+        {
+          "type": "column",
+          "children": [
+            {
+              "type": "heading",
+              "props": {
+                "level": 2
+              },
+              "content": "Vos hôtes, Julien et Jennifer"
+            },
+            {
+              "type": "paragraph",
+              "content": "Nous sommes tombés amoureux de Châtel à 18 ans. En couple, avec les enfants, entre amis, en toute saison : on y revient sans cesse. En septembre 2021, on y a trouvé notre cocon. Sur place, notre intervenante vous accueille et partage ses adresses."
+            },
+            {
+              "type": "buttons",
+              "props": {
+                "align": "left"
+              },
+              "children": [
+                {
+                  "type": "button",
+                  "props": {
+                    "url": "/about-us",
+                    "variant": "outline",
+                    "openInNewTab": false
+                  },
+                  "content": "Qui sommes-nous"
+                },
+                {
+                  "type": "button",
+                  "props": {
+                    "url": "/contact",
+                    "variant": "text",
+                    "openInNewTab": false
+                  },
+                  "content": "Nous écrire"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "props": {
+        "level": 2
+      },
+      "content": "Le carnet de Châtel"
+    },
+    {
+      "type": "articleList",
+      "props": {
+        "count": 4,
+        "columns": 4,
+        "buttonLabel": "Lire"
+      }
     }
   ]
 }

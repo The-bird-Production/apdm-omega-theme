@@ -1,16 +1,16 @@
 {
   "id": "apdm",
   "name": "Au Pied du Morclan",
-  "description": "Thème pour le meublé de tourisme Au Pied du Morclan (Châtel).",
-  "version": "2.1.1",
+  "description": "Thème pour le meublé de tourisme Au Pied du Morclan (Châtel) — refonte 2026 : design clair, mode hiver/été, bannière vidéo, avis.",
+  "version": "3.0.0",
   "author": "Faynix & Faustine Guillaume",
   "config": {
     "fonts": {
-      "body": "HelveticaNeueCyr-Medium, sans-serif",
-      "heading": "Lilita One, cursive"
+      "body": "Figtree, system-ui, sans-serif",
+      "heading": "Big Shoulders Display, Arial Narrow, sans-serif"
     },
     "layout": {
-      "header": "default",
+      "header": "sticky",
       "footer": "default",
       "buttonStyle": "rounded"
     },
